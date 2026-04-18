@@ -1,0 +1,13 @@
+## Xcode user data — never commit these
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+## Build products
+DerivedData/
+build/
+*.o
+*.d
+
+## macOS
+.DS_Store
