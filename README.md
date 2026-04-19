@@ -96,6 +96,12 @@ That's it. Your login session is preserved — you won't need to log back into I
 
 ---
 
+## Limitations
+
+**No push notifications.** iOS's WKWebView (the component this app is built on) does not support the browser Push API, so Instagram's web push notifications are silenced. You will only see new messages when you open the app. This is a fundamental constraint of the WebView architecture and cannot be worked around without a separate backend server.
+
+---
+
 ## Privacy
 
 - This app does not collect any data
